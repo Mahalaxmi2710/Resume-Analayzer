@@ -40,8 +40,8 @@ Simply open index.html in a browser.
 
 ### API Endpoint
 POST /analyze/ → Accepts a resume file and job role, then returns:
-matched_skills: List of skills found in the resume
-missing_skills: List of skills required but missing
-job_fit_score: Percentage of match
+- matched_skills: List of skills found in the resume
+- missing_skills: List of skills required but missing
+- job_fit_score: Percentage of match
 
 
