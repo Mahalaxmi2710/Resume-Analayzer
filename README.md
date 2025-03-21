@@ -22,7 +22,4 @@ The **Resume Analyzer** is a web-based application that helps job seekers evalua
 git clone https://github.com/your-username/resume-analyzer.git
 cd resume-analyzer
 
-### 2️⃣ Install Dependencies
-Ensure you have Python installed, then run:
 
-pip install fastapi uvicorn pdfplumber sqlite3
