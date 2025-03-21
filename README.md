@@ -21,5 +21,27 @@ The **Resume Analyzer** is a web-based application that helps job seekers evalua
 ```bash
 git clone https://github.com/your-username/resume-analyzer.git
 cd resume-analyzer
+```
+
+### 2️⃣ Install Python Dependencies 
+Ensure you have Python installed, then install the required dependencies:
+```bash
+pip install fastapi uvicorn pdfplumber sqlite3
+```
+### 3️⃣ Run the Backend Server
+Start the FastAPI server:
+```bash
+uvicorn main:app --reload
+```
+(Ensure main.py is the correct filename for your backend script.)
+
+### 4️⃣ Run the Frontend
+Simply open index.html in a browser.
+
+### API Endpoint
+POST /analyze/ → Accepts a resume file and job role, then returns:
+matched_skills: List of skills found in the resume
+missing_skills: List of skills required but missing
+job_fit_score: Percentage of match
 
 
